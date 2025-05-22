@@ -291,7 +291,7 @@ app.delete("/books/:bookId", async (req, res) => {
       res.status(200).json({ message: "Book deleted successfully." });
     }
   } catch (error) {
-    res.status(500).json({ error: "Failed to delete book." });
+    res.status(500).json({ error: "Failed to delete Book." });
   }
 });
 
